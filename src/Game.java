@@ -26,8 +26,8 @@ public class Game {
 
                     Random random = new Random();
                     int number = random.nextInt(20);
-                    System.out.println(number);
-
+                    
+                    
                     int guessNumber = 0;
                     for (int i = 1; i < 6; i++) {
                         System.out.print(name + ", please choose your " + i + " option :- ");
